@@ -10,30 +10,6 @@
   * rack-jekyll (0.5.0)
   * minima (2.5.1)
 
-```console
-bundle config set --local path 'vendor/bundle'
-```
-
-```console
-bundle install
-```
-
-```console
-bundle exec jekyll serve
-```
-
-```console
-git add .
-```
-
-```console
-git commit -m "Cleanup"
-```
-
-```console
-git push heroku master
-```
-
 ### Install 
 ```console
 git clone https://github.com/lootpiz/jekyll-on-heroku.git
