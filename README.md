@@ -12,39 +12,39 @@
 
 ### Install 
 ```console
-git clone https://github.com/lootpiz/jekyll-on-heroku.git
+$ git clone https://github.com/lootpiz/jekyll-on-heroku.git
 ```
 
 ```console
-cd jekyll-on-heroku
+$ cd jekyll-on-heroku
 ```
 
 ```console
-heroku apps:create
+$ heroku apps:create
 ```
 
 ```console
-heroku buildpacks:add heroku/ruby
+$ heroku buildpacks:add heroku/ruby
 ```
 
 ```console
-heroku buildpacks:add https://github.com/heroku/heroku-buildpack-static
+$ heroku buildpacks:add https://github.com/heroku/heroku-buildpack-static
 ```
 
 ```console
-bundle config set --local path 'vendor/bundle'
+$ bundle config set --local path 'vendor/bundle'
 ```
 
 ```console
-bundle install
+$ bundle install
 ```
 
 ```console
-git add .
+$ git add .
 ```
 
 ```console
-git commit -m "Updated"
+$ git commit -m "Updated"
 ```
 
 ```console
